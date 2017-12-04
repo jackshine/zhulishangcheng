@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+<ImageView
+    android:id="@+id/pic"
+    android:layout_width="80dp"
+    android:layout_height="60dp"
+    android:src="@mipmap/ic_launcher"/>
+    <TextView
+        android:id="@+id/shop_name"
+        android:layout_toRightOf="@+id/pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="商品的名字"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/line_color"/>
+
+        <TextView
+            android:id="@+id/money"
+            android:layout_below="@+id/shop_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/pic"
+            android:layout_centerVertical="true"
+            android:textColor="@color/green"
+            android:gravity="center_vertical"
+            android:drawableLeft="@mipmap/pot"
+            android:text="明后"
+            />
+    <TextView
+        android:id="@+id/money2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/pic"
+        android:layout_below="@+id/money"
+        android:text="22333"
+        android:gravity="center_vertical"
+        android:drawableLeft="@mipmap/pot"
+        />
+    <TextView
+        android:id="@+id/look"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:drawablePadding="5dp"
+        android:drawableRight="@mipmap/ic_normal_dot_left"
+        android:text="查看详情"
+        android:layout_margin="30dp"/>
+
+</RelativeLayout>

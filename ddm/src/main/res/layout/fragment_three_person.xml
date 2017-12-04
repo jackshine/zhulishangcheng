@@ -1,0 +1,13 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                tools:context="com.example.ddm.onemoney.two.TwoOrderFragment">
+    <com.example.ddm.appui.widget.AppTitleBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:bar_title="个人中心">
+    </com.example.ddm.appui.widget.AppTitleBar>
+
+</RelativeLayout>

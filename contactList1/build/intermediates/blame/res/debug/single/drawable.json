@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\MyApplication\\contactList1\\build\\intermediates\\res\\merged\\debug\\drawable\\text_selector.xml",
+        "source": "D:\\MyApplication\\contactList1\\src\\main\\res\\drawable\\text_selector.xml"
+    },
+    {
+        "merged": "C:\\MyProject\\MyApplication\\contactList1\\build\\intermediates\\res\\merged\\debug\\drawable\\item_selector.xml",
+        "source": "C:\\MyProject\\MyApplication\\contactList1\\src\\main\\res\\drawable\\item_selector.xml"
+    },
+    {
+        "merged": "D:\\MyApplication\\contactList1\\build\\intermediates\\res\\merged\\debug\\drawable\\item_selector.xml",
+        "source": "D:\\MyApplication\\contactList1\\src\\main\\res\\drawable\\item_selector.xml"
+    },
+    {
+        "merged": "C:\\MyProject\\MyApplication\\contactList1\\build\\intermediates\\res\\merged\\debug\\drawable\\text_selector.xml",
+        "source": "C:\\MyProject\\MyApplication\\contactList1\\src\\main\\res\\drawable\\text_selector.xml"
+    }
+]

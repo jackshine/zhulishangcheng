@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+              android:orientation="vertical"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context="com.example.ddm.appui.mine.NewsFragment">
+    <!-- TODO: Update blank fragment layout -->
+    <com.example.ddm.appui.widget.AppTitleBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:bar_title="我的消息"
+        app:back_img="@drawable/fragment_back_arrow">
+    </com.example.ddm.appui.widget.AppTitleBar>
+    <RelativeLayout
+        android:id="@+id/Relative"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/wuxiaoxi"/>
+    </RelativeLayout>
+    <com.example.ddm.appui.view.PullToRefreshView
+        android:id="@+id/main_pull_refresh_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ListView
+            android:background="@color/ghostwhite"
+            android:layout_below="@+id/Relative"
+            android:id="@+id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ListView>
+    </com.example.ddm.appui.view.PullToRefreshView>
+</LinearLayout>

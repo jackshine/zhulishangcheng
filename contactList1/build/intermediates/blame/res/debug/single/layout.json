@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "D:\\MyApplication\\contactList1\\build\\intermediates\\res\\merged\\debug\\layout\\overlay.xml",
+        "source": "D:\\MyApplication\\contactList1\\src\\main\\res\\layout\\overlay.xml"
+    },
+    {
+        "merged": "C:\\MyProject\\MyApplication\\contactList1\\build\\intermediates\\res\\merged\\debug\\layout\\total_item.xml",
+        "source": "C:\\MyProject\\MyApplication\\contactList1\\src\\main\\res\\layout\\total_item.xml"
+    },
+    {
+        "merged": "D:\\MyApplication\\contactList1\\build\\intermediates\\res\\merged\\debug\\layout\\frist_list_item.xml",
+        "source": "D:\\MyApplication\\contactList1\\src\\main\\res\\layout\\frist_list_item.xml"
+    },
+    {
+        "merged": "C:\\MyProject\\MyApplication\\contactList1\\build\\intermediates\\res\\merged\\debug\\layout\\recent_city.xml",
+        "source": "C:\\MyProject\\MyApplication\\contactList1\\src\\main\\res\\layout\\recent_city.xml"
+    },
+    {
+        "merged": "C:\\MyProject\\MyApplication\\contactList1\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "C:\\MyProject\\MyApplication\\contactList1\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "D:\\MyApplication\\contactList1\\build\\intermediates\\res\\merged\\debug\\layout\\total_item.xml",
+        "source": "D:\\MyApplication\\contactList1\\src\\main\\res\\layout\\total_item.xml"
+    },
+    {
+        "merged": "D:\\MyApplication\\contactList1\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
+        "source": "D:\\MyApplication\\contactList1\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
+        "merged": "D:\\MyApplication\\contactList1\\build\\intermediates\\res\\merged\\debug\\layout\\item_city.xml",
+        "source": "D:\\MyApplication\\contactList1\\src\\main\\res\\layout\\item_city.xml"
+    },
+    {
+        "merged": "C:\\MyProject\\MyApplication\\contactList1\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
+        "source": "C:\\MyProject\\MyApplication\\contactList1\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
+        "merged": "D:\\MyApplication\\contactList1\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "D:\\MyApplication\\contactList1\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\MyProject\\MyApplication\\contactList1\\build\\intermediates\\res\\merged\\debug\\layout\\frist_list_item.xml",
+        "source": "C:\\MyProject\\MyApplication\\contactList1\\src\\main\\res\\layout\\frist_list_item.xml"
+    },
+    {
+        "merged": "C:\\MyProject\\MyApplication\\contactList1\\build\\intermediates\\res\\merged\\debug\\layout\\item_city.xml",
+        "source": "C:\\MyProject\\MyApplication\\contactList1\\src\\main\\res\\layout\\item_city.xml"
+    },
+    {
+        "merged": "D:\\MyApplication\\contactList1\\build\\intermediates\\res\\merged\\debug\\layout\\recent_city.xml",
+        "source": "D:\\MyApplication\\contactList1\\src\\main\\res\\layout\\recent_city.xml"
+    },
+    {
+        "merged": "C:\\MyProject\\MyApplication\\contactList1\\build\\intermediates\\res\\merged\\debug\\layout\\overlay.xml",
+        "source": "C:\\MyProject\\MyApplication\\contactList1\\src\\main\\res\\layout\\overlay.xml"
+    }
+]

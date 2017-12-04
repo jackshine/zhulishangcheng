@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/ic_launcher"/>
+    <TextView
+        android:id="@+id/shop_name"
+        android:layout_toRightOf="@+id/pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="商品名称"/>
+<TextView
+    android:id="@+id/time1"
+    android:layout_toRightOf="@+id/pic"
+    android:layout_below="@+id/shop_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:text="时间"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:src="@mipmap/wujiaoxing"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pic"
+        android:text="我是这里的内容"/>
+    <com.example.ddm.appui.view.SodukuGridView
+        android:layout_below="@+id/content"
+        android:id="@+id/grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:columnWidth="70dp"
+        android:gravity="center"
+        android:horizontalSpacing="2.5dp"
+        android:numColumns="3"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="2.5dp" >
+    </com.example.ddm.appui.view.SodukuGridView>
+    <LinearLayout
+        android:id="@+id/layout"
+        android:visibility="gone"
+        android:layout_below="@+id/grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="商家回复："
+            android:textColor="@color/tree_hole_5"/>
+        <TextView
+            android:id="@+id/reply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/Relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/shape_bank_card">
+
+        <ImageView
+            android:id="@+id/iv_bank_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:id="@+id/tv_bank_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/iv_bank_icon"
+            android:text="招商银行"
+            android:textColor="@android:color/white"
+            />
+
+        <TextView
+            android:id="@+id/tv_bank_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_bank_name"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/iv_bank_icon"
+            android:text="周子文"
+            android:textColor="@android:color/white"
+           />
+
+        <TextView
+            android:id="@+id/tv_xing_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_bank_user"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/iv_bank_icon"
+            android:text="****"
+            android:textColor="@android:color/white"
+            />
+
+        <TextView
+            android:id="@+id/tv_xing_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_bank_user"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/tv_xing_one"
+            android:text="****"
+            android:textColor="@android:color/white"
+            />
+
+        <TextView
+            android:id="@+id/tv_xing_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_bank_user"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/tv_xing_two"
+            android:text="****"
+            android:textColor="@android:color/white"
+           />
+
+        <TextView
+            android:id="@+id/tv_xing_four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_bank_user"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="16dp"
+            android:layout_toRightOf="@id/tv_xing_three"
+            android:text="5371"
+            android:textColor="@android:color/white"
+            />
+    </RelativeLayout>
+</LinearLayout>

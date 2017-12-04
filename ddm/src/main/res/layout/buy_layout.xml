@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+    <RelativeLayout
+        android:background="@drawable/hbbj"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+       >
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="250dp"
+            android:layout_height="25dp"
+            android:layout_above="@+id/view"
+            android:layout_marginBottom="10dp"
+            android:textColor="#7f0001"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/def_yellow_bom"/>
+        <View
+            android:id="@+id/view"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_centerInParent="true"/>
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/view"
+            android:textColor="#7f0001"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/def_yellow_bom"/>
+        <TextView
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="#f8dcdc"/>
+        <TextView
+            android:layout_above="@+id/divider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="红包详情"
+            android:textColor="#eebfbf"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"/>
+    </RelativeLayout>
+
+</RelativeLayout>

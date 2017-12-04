@@ -1,0 +1,155 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/scrollView_"
+                tools:context="com.example.ddm.appui.mine.MineFragment">
+    <!-- TODO: Update blank fragment layout -->
+    <com.example.ddm.appui.view.PullToRefreshView
+        android:id="@+id/main_pull_refresh_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.example.ddm.appui.view.ObservableScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:scrollbars="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/userRelativeLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mine_broung">
+
+                    <ImageView
+                        android:id="@+id/set"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@mipmap/ic_user_setting"/>
+
+                    <ImageView
+                        android:id="@+id/news_num"
+                        android:layout_width="5dp"
+                        android:layout_height="5dp"
+                        android:layout_marginTop="6dp"
+                        android:layout_toLeftOf="@+id/set"
+                        android:src="@mipmap/pot"
+                        android:visibility="gone"/>
+
+                    <ImageView
+                        android:id="@+id/news"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toLeftOf="@+id/set"
+                        android:src="@mipmap/news"/>
+
+                    <com.example.ddm.appui.view.CircleImageView
+                        android:id="@+id/iv_photo_person_ziliao"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_below="@+id/set"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/touxiangyuan"
+                        android:scaleType="center"
+                        android:src="@drawable/default_img"/>
+
+                    <RelativeLayout
+                        android:id="@+id/Relative"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/iv_photo_person_ziliao"
+                        android:layout_centerHorizontal="true">
+
+                        <TextView
+                            android:id="@+id/user_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:gravity="center"
+                            android:text="请登录"
+                            android:textColor="@color/white"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_toRightOf="@+id/user_name"
+                            android:src="@mipmap/genggai_mingcheng"/>
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <include
+                    layout="@layout/fragment_mine_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/white"
+                    android:drawableRight="@mipmap/ic_normal_dot_left"
+                    android:padding="7dp"
+                    android:text="我的订单"
+                    />
+
+                <include
+                    layout="@layout/fragment_my_order"/>
+
+                <LinearLayout
+                    android:id="@+id/layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@color/white"
+                        android:drawableRight="@mipmap/ic_normal_dot_left"
+                        android:padding="7dp"
+                        android:text="商家订单"
+                        />
+
+                    <include
+                        layout="@layout/fragment_my_order_two"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.example.ddm.appui.gridview.MyGridView
+                        android:id="@+id/grid_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:horizontalSpacing="1dp"
+                        android:numColumns="4"
+                        android:verticalSpacing="1dp">
+                    </com.example.ddm.appui.gridview.MyGridView>
+                </LinearLayout>
+            </LinearLayout>
+        </com.example.ddm.appui.view.ObservableScrollView>
+    </com.example.ddm.appui.view.PullToRefreshView>
+</RelativeLayout>

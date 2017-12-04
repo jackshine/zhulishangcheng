@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              tools:context="com.example.ddm.appui.fragment.DealFragment">
+    <com.example.ddm.appui.widget.AppTitleBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:back_img="@drawable/fragment_back_arrow"
+        app:bar_title="用户协议">
+    </com.example.ddm.appui.widget.AppTitleBar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="助利商城商家注册协议"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1、完成会员注册程序后,助利商城会使用您所填写的手机号码作为您的账户,您应对您的账户和密码的安全负责。"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2、助利商城只允许每位用户使用一个助利商城平台账户。如有证据证明您存在不当注册或不当使用多个助利商城平台账户的情形,助利商城可采取冻结或关闭账户、取消订単、拒绝提供服务等措施。"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3、会员必须向助利商城提供真实确实的信息,对于由于资料提供不正确导致汇款无法收到等后果,助利商城不承担责任。"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4、您在使用助利商城服务过程中,所产生的应纳税务,以及一切硬件、软件、服务及其它方面的费用,均由您独自承担。"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5、所有加盟商家只提供商品的销售、品质保证和售后服务,不承担赠送积分责任。"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6、联盟商家如有以下违规行为,公司一经核实即止终止合作,并作出相应处罚。"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 严禁销售非正品产品；\n 严禁经营报备以外的产品参与赠送；\n 严禁承诺和虚吹赠送政策；\n 严禁漏登会员消费产品详细信息；\n 严禁抬高价格，将服务费用转嫁给顾客；\n 严禁未经顾客本人同意为其注册会员；\n 严禁虚假消费骗取积分；\n 严禁自行发布任何有关助利购物的媒体广告；\n 严禁其他任何欺诈消费者的行为。"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="欢迎广大会员举报商家的不法行为，共同维护市场健康和良好的购物环境。"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="助利商城用户注册协议"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1、完成用户注册程序后，助利商城会使用您所填写的手机号码作为您的账户，您应对您的账户和密码的安全负责。\n2、用户必须向助利商城提供真实确实的信息，对于由于资料提供不正确导致汇款无法收到等后果，助利商城不承担责任。\n3、助利商城只允许每位用户使用一个助利商城平台账户。如有证据证明您存在不当注册或不当使用多个助利商城平台账户的情形，助利商城可采取冻结或关闭账户、取消订单、拒绝提供服务等措施。\n4、用户在红利期间，结合公司当天收支平衡的情况下，我们助利平台最多会赠送消费金额的50%。\n5、用户赠送金额在满100前提下，需要提前申请提现，一定要在本周一到本周五之前完成提现的相关步骤，提现金额在下周一到账。\n
+提现说明：
+1、每周只有一次申请机会\n
+2、本周申请一律下周结算(每周日为一周的第一天，请于周6之前进行提现申请)。\n
+3、申请提现需要完善以下信息\n
+A、编辑《我的资料》中的名字，此名字作为银行卡持有人的名字。\n
+B、添加《我的银行卡》，支付信息须精确到开户行，如不确定，可致电银行客服进行咨询。\n
+6、用户在购物中如有发现商家如以下违规行为，公司一经核实即终止终止商家合作，对商家作出相应处罚，给用户予以相应的奖励。\n
+严禁销售非正品产品；\n
+严禁经营报备以外的产品参与赠送；\n
+严禁承诺和虚吹赠送政策；\n
+严禁漏登会员消费产品详细信息；\n
+严禁抬高价格，将服务费用转嫁给顾客；\n
+严禁未经顾客本人同意为其注册会员；\n
+严禁虚假消费骗取积分；\n
+严禁自行发布任何有关乐采的媒体广告；\n
+严禁其他任何欺诈消费者的行为。\n
+欢迎广大会员举报商家的不法行为，共同维护市场健康和良好的购物环境。\n
+以上解释权最终归河南叮当猫电子商务有限公司"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

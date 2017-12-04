@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+       >
+        <TextView
+            android:id="@+id/inform1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:text="我中了一百万"
+            android:textSize="15sp"
+            android:layout_toLeftOf="@+id/pic"/>
+        <ImageView
+            android:id="@+id/pic"
+            android:layout_margin="2dp"
+            android:layout_width="30dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/ic_normal_dot_left"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            />
+    </RelativeLayout>
+</LinearLayout>

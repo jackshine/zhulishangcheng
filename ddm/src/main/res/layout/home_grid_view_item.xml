@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <com.example.ddm.appui.view.SquareImageView
+        android:id="@+id/pic_sp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="fitXY"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/ic_launcher"
+        />
+
+    <View
+        android:layout_toLeftOf="@+id/pic_sp"
+        android:layout_width="10dp"
+        android:layout_height="match_parent"/>
+    <View
+        android:layout_toRightOf="@+id/pic_sp"
+        android:layout_width="10dp"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:id="@+id/txt_sp"
+        android:layout_below="@+id/pic_sp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:maxEms="6"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColor="@color/line_color"
+        android:text="叮当猫"/>
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:id="@+id/wu_xing"
+        android:layout_below="@id/txt_sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/wujiaoxing"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>

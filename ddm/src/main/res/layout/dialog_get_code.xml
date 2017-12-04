@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/shape_change_dialog"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@mipmap/chacha"
+                android:layout_alignParentRight="true"
+                />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/tv_dialog_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="请输入图片验证码"
+            android:textSize="14sp"/>
+<LinearLayout
+    android:layout_marginTop="25dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <EditText
+        android:id="@+id/tv_dialog_content"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:hint="请输入图片验证码"
+        android:background="@null"
+        android:maxLines="1"
+        android:lines="1"
+        android:inputType="text"
+        android:layout_gravity="center"
+        android:textCursorDrawable="@color/search_tab_nomarl"
+        android:textColor="@color/black"
+        android:textSize="12sp"/>
+    <ImageView
+        android:id="@+id/code_pic"
+        android:layout_width="95dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="center"
+        android:layout_height="40dp"
+        />
+    <ImageView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/refresh_pic"
+        android:layout_width="25dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/change_one"
+        android:layout_height="25dp"/>
+</LinearLayout>
+<TextView
+    android:layout_marginTop="25dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="验证码不区分大小写"
+    android:layout_marginBottom="10dp"
+    android:textColor="@color/green"/>
+    </LinearLayout>
+
+</LinearLayout>

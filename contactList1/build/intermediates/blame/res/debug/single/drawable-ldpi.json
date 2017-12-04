@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\MyApplication\\contactList1\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\icon.png",
+        "source": "D:\\MyApplication\\contactList1\\src\\main\\res\\drawable-ldpi\\icon.png"
+    },
+    {
+        "merged": "C:\\MyProject\\MyApplication\\contactList1\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\icon.png",
+        "source": "C:\\MyProject\\MyApplication\\contactList1\\src\\main\\res\\drawable-ldpi\\icon.png"
+    }
+]

@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="20dp"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="中国省市选择"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/tv_province"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_title"
+        android:layout_marginLeft="20dip"
+        android:text="省" />
+
+    <TextView
+        android:id="@+id/tv_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_province"
+        android:layout_marginLeft="20dip"
+        android:text="市" />
+
+    <Button
+        android:id="@+id/btn_city"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tv_city"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:background="@drawable/provice_city_country"
+        android:text="市" />
+
+    <TextView
+        android:id="@+id/tv_county"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_city"
+        android:layout_marginLeft="20dip"
+        android:text="县、区" />
+    <Button
+        android:id="@+id/btn_county"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tv_county"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:background="@drawable/provice_city_country"
+        android:text="区" />
+    <TextView
+        android:id="@+id/tv_show"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_county"
+        android:layout_margin="20dip"
+        android:textSize="16sp" />
+    <Button
+        android:id="@+id/btn_province"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/provice_city_country"
+        android:text="省"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/tv_province"
+        android:layout_alignLeft="@+id/tv_province" />
+
+</RelativeLayout>

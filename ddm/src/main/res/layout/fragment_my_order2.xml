@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/bg_fragment"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="@color/ghostwhite"
+        android:gravity="center_vertical">
+
+        <RadioGroup
+            android:id="@+id/friend_radio_group"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/friend_tab"
+                style="@style/weight_hor"
+                android:background="@drawable/bt_left_blue"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:textColor="@color/text_bg_selector_friend_tab"
+                android:text="线上订单"
+               />
+
+            <RadioButton
+                android:id="@+id/friend_group_tab"
+                style="@style/weight_hor"
+                android:layout_marginLeft="-2dp"
+                android:background="@drawable/bt_right_blue"
+                android:button="@null"
+                android:gravity="center"
+                android:text="线下订单"
+                android:textColor="@color/text_bg_selector_friend_tab"/>
+        </RadioGroup>
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/friend_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

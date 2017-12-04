@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              tools:context="com.example.ddm.appui.mine.myhome.BindSuccessFragment">
+
+    <com.example.ddm.appui.widget.AppTitleBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:bar_title="添加银行卡"
+        app:action_text="完成">
+    </com.example.ddm.appui.widget.AppTitleBar>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/tianjiawancheng"
+        android:layout_marginTop="56dp"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="26dp"
+        android:textSize="32px"
+        android:textColor="@color/green"
+        android:text="支付成功"
+        />
+</LinearLayout>

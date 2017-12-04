@@ -1,0 +1,80 @@
+<resources>
+    <string-array name="person_item_title">
+        <item>优惠卷</item>
+        <item>推广码</item>
+        <item>在线充值</item>
+        <item>商家须知</item>
+        <item>账户概况</item>
+        <item>资金流水</item>
+        <item>银行卡</item>
+        <item>积分兑换</item>
+        <item>线下做单</item>
+        <item>做单明细</item>
+        <item>做单审核</item>
+        <item>叮当明细</item>
+        <item>中奖记录</item>
+        <item>分享团体</item>
+        <item>联系客服</item>
+        <item>关于助利</item>
+    </string-array>
+    <string-array name="person_item_title_p">
+        <item>优惠卷</item>
+        <item>推广码</item>
+        <item>在线充值</item>
+        <item>用户须知</item>
+        <item>账户概况</item>
+        <item>资金流水</item>
+        <item>银行卡</item>
+        <item>积分兑换</item>
+        <item>叮当明细</item>
+        <item>中奖记录</item>
+        <item>分享团体</item>
+        <item>联系客服</item>
+        <item>关于助利</item>
+    </string-array>
+    <string-array name="person_item_title_z">
+        <item>优惠卷</item>
+        <item>推广码</item>
+        <item>在线充值</item>
+        <item>商家须知</item>
+        <item>账户概况</item>
+        <item>资金流水</item>
+        <item>银行卡</item>
+        <item>积分兑换</item>
+        <item>做单申请</item>
+        <item>做单记录</item>
+        <item>叮当明细</item>
+        <item>中奖记录</item>
+        <item>分享团体</item>
+        <item>联系客服</item>
+        <item>关于助利</item>
+    </string-array>
+    <string name="app_name">助利商城</string>
+    <string name="app_sao">扫一扫</string>
+    <string name="facebook_app_id">1266254913438718</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="head">这里是HeadView</string>
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="refresh_succeed">刷新成功</string>
+    <string name="refresh_fail">刷新失败</string>
+    <string name="pullup_to_load">上拉加载更多</string>
+    <string name="release_to_load">释放立即加载</string>
+    <string name="loading">正在加载...</string>
+    <string name="load_succeed">加载成功</string>
+    <string name="load_fail">加载失败</string>
+    <string name="viewfinderview_status_text1">将二维码/条码放入取景框内</string>
+    <string name="viewfinderview_status_text2">即可自动扫描</string>
+    <string name="msg_camera_framework_bug">Sorry, the Android camera encountered a problem. You may need to restart the device.</string>
+    <string name="button_ok">OK</string>
+    <string name="good_count">x %d</string>
+    <string name="price">￥%s</string>
+    <string name="total_0">合计：￥0.00</string>
+    <string name="total">合计：￥%s</string>
+    <string name="jiesuan_0">结算（0）</string>
+    <string name="jiesuan">结算（%s）</string>
+    <string name="cart_title_0">购物车(0)</string>
+    <string name="cart_title">购物车(%s)</string>
+</resources>
